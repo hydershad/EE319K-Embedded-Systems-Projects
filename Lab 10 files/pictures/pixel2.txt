@@ -1,0 +1,3 @@
+const unsigned short pixel2[] = {
+ 0xED00,
+};

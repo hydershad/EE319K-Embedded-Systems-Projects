@@ -1,0 +1,4 @@
+	A. The interrupt trigger occurs whenever the systick timer hits 0. 
+	B. The interrupt  vector is in the startup.s file.
+	C. After the trigger occurs the current instruction is finished then the execution of the program is suspended pushes ASPCS registers to the stack, the LR is set to a specific value signifying the ISR being run and the type of interrupt return to perform. The IPSR is set to the interrupt number being processed. The PC is loaded with the address of the ISR vector. These five steps are called context switch. 
+	D. The interrupt pops to a special value and then after popping all the values back into the registers, including LR into the PC…..

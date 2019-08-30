@@ -1,0 +1,10 @@
+.\collisions.o: collisions.c
+.\collisions.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\collisions.o: tm4c123gh6pm.h
+.\collisions.o: ST7735.h
+.\collisions.o: Random.h
+.\collisions.o: TExaS.h
+.\collisions.o: ADC.h
+.\collisions.o: globals.h
+.\collisions.o: UART.h
+.\collisions.o: FiFo.h
